@@ -14,6 +14,7 @@ namespace vaja6 {
         public string u_geslo;
         public static int stIg = 1;
 
+		// Nastavi vrednosti
         public Igralec() {
             u_ime = "";
             u_geslo = "";
@@ -28,6 +29,7 @@ namespace vaja6 {
             }
         }
 
+		// Trima ime, ko ga nastavljamo
         public string U_ime {
             get
             {
@@ -38,7 +40,7 @@ namespace vaja6 {
                 u_ime = value.Trim();
             }
         }
-
+		// Trima geslo, ko ga nastavljamo
         public string U_geslo
         {
             get
