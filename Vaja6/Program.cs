@@ -5,14 +5,14 @@ namespace vaja6 {
   
     public enum Poklic { Bojevnik, Carovnik, Menih, Tat, Lovec, Duhoven };
 
-  public int x = 666;
+    public int x = 666;
 
 	// Se en komentar
     class Igralec {
-        public int id;
-        public string u_ime;
-        public string u_geslo;
-        public static int stIg = 1;
+        private int id;
+        private string u_ime;
+        private string u_geslo;
+        private static int stIg = 1;
 
 		// Nastavi vrednosti
         public Igralec() {
